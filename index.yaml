@@ -1,14 +1,18 @@
 apiVersion: v1
 entries:
-  helm-chart-test:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-12-11T11:13:31.518857058+01:00"
-    description: A Helm chart for Kubernetes
-    digest: a98e93a285df291b632a5f8ce54832835cc4cfef630d7c62f0a934d0191fd987
-    name: helm-chart-test
-    type: application
+  orc8r:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-09T14:17:29.113798808-05:00"
+    description: A Helm chart for magma orchestrator
+    digest: 664c84036c7a7a1893dd362250d9071cc9c3ce7bbf3923aa8d65d8e732f6e7b9
+    keywords:
+    - magma
+    - or8cr
+    name: orc8r
+    sources:
+    - https://github.com/facebookincubator/magma
     urls:
-    - https://LucaV27.github.io/cttc-helm-chart/helm-chart-test-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-12-11T11:13:31.51745445+01:00"
+    - magmaOrc8r/orc8r-0.1.4.tgz
+    version: 0.1.4
+generated: "2020-11-09T14:17:29.104333706-05:00"
