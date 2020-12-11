@@ -3,9 +3,9 @@ entries:
   orc8r:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-09T14:17:29.113798808-05:00"
+    created: "2020-12-11T11:31:46.527764808+01:00"
     description: A Helm chart for magma orchestrator
-    digest: 664c84036c7a7a1893dd362250d9071cc9c3ce7bbf3923aa8d65d8e732f6e7b9
+    digest: 1ad1c62ef9a7ace1556d512479fb617bfdfd6a13e25900b7d4a7496da01df9ea
     keywords:
     - magma
     - or8cr
@@ -13,6 +13,6 @@ entries:
     sources:
     - https://github.com/facebookincubator/magma
     urls:
-    - magmaOrc8r/orc8r-0.1.4.tgz
+    - https://LucaV27.github.io/cttc-helm-chart/magmaOrc8r/orc8r-0.1.4.tgz
     version: 0.1.4
-generated: "2020-11-09T14:17:29.104333706-05:00"
+generated: "2020-12-11T11:31:46.496131322+01:00"
